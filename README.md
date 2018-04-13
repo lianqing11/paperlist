@@ -29,3 +29,11 @@
   > Multi-grid Method
   > Once reduce stride one time ,every subsequent conv's atrous rate should time 2
   > Test if the network can go deeper with resent50 and resnet101 which show slightly improve.
+
+
+
+- Pyramid Scene Parsing Network [[pdf]](https://arxiv.org/abs/1612.01105)[[code]](https://github.com/hszhao/PSPNet)
+  -  Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, Jiaya Jia
+  > On the last layer add a Pyramid network with multi brach which first downsampling, then conv to extract feature or context information and then upsamping to the same size, finally concat them
+
+ -
