@@ -17,3 +17,15 @@
   > 2. improve searching process that first search the network on a small dataset (cifar) and then use that network to test on larger dataset(Imagenet)
   > 3. make a comparison between random search and use reinforcement learning and show the benefit from reinforcement learning
   > 4. Do a experiment that transfer the network from classification task to detection task
+
+
+
+##Semantic Segmentation
+
+
+- rethinking Atrous Convolution for Semantic Image Segmentation [[pdf]](https://arxiv.org/abs/1706.05587)
+  -  Liang-Chieh Chen, George Papandreou, Florian Schroff, Hartwig Adam
+  > Add Atrous Spatial Pyramid Pooling on the end of the model a) different rate's atrous and convolution b)image level feature
+  > Multi-grid Method
+  > Once reduce stride one time ,every subsequent conv's atrous rate should time 2
+  > Test if the network can go deeper with resent50 and resnet101 which show slightly improve.
