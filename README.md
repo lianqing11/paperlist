@@ -20,7 +20,7 @@
 
 
 
-##Semantic Segmentation
+## Semantic Segmentation
 
 
 - rethinking Atrous Convolution for Semantic Image Segmentation [[pdf]](https://arxiv.org/abs/1706.05587)
@@ -35,5 +35,3 @@
 - Pyramid Scene Parsing Network [[pdf]](https://arxiv.org/abs/1612.01105)[[code]](https://github.com/hszhao/PSPNet)
   -  Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, Jiaya Jia
   > On the last layer add a Pyramid network with multi brach which first downsampling, then conv to extract feature or context information and then upsamping to the same size, finally concat them
-
- -
